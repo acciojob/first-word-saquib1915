@@ -1,8 +1,8 @@
 function firstWord(s) {
   // your code here
 	let st=s.trim();
-	if(st===" "){
-		return " ";
+	if(st===""){
+		return "";
 	}
 	return st.split(" ")[0];
 }
